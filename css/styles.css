@@ -1,0 +1,162 @@
+/* Element Selectors */
+a {
+  color: aquamarine;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Bootstrap Navbar */
+.navbar {
+  padding: 0 1rem 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.0rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.welcome-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.0rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: blueviolet;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Title Section */
+#title .container-fluid {
+    padding:3% 15%;
+    text-align: left;
+}
+
+/* Title Section */
+#contact-you {
+    text-align: left;
+}
+
+/* title */
+.title-image {
+  width: 90%;
+  position:absolute;
+  right: 5%;
+  border-radius: 20px;
+}
+
+.contact-image {
+  width: 70%;
+  position:absolute;
+  right: 5%;
+  border-radius: 20px;
+}
+
+.domestic-image {
+  width: 60%;
+  position:absolute;
+  right: 5%;
+  border-radius: 20px;
+}
+
+.rotate-image {
+  -webkit-transform:rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+/* Pricing Section */
+/* #pricing {
+  position:relative;
+} */
+
+.card-header {
+  background-color: blueviolet;
+  color: white;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-plan-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.0rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+.footer-section {
+  background-color: blueviolet;
+  color: white;
+}
+
+
+.social-icon {
+  margin: 1px 10px 20px;
+}
+
+/* Media Query Breakpoints */
+@media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
