@@ -111,10 +111,12 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(20deg);
 }
 
-/* Pricing Section */
-/* #pricing {
+/* Image Relative Position */
+/*
+ #pricing, #contact-you, #discover-india {
   position:relative;
-} */
+} 
+*/
 
 .card-header {
   background-color: blueviolet;
@@ -155,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
       text-align: center;
     }
 
-    .title-image {
+    .title-image, .contact-image, .domestic-image {
       position: static;
       transform: rotate(0);
     }
