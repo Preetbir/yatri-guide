@@ -32,31 +32,47 @@
           <h2 class="welcome-text"><a href="">Please login to access your account</a></h2>
        </div>
         <div class="col-lg-6">
-          <img class="contact-image rotate-image" src="../images/email.png" alt="login-image">
+          <img class="login-image rotate-image" src="../images/login.png" alt="login-image">
         </div>
      </div>
     </div>
   </section> <!-- end of Title section -->
 
-  <!-- login -->
+  <!-- Login Section -->
   <section class="white-section" id='contact-you'>
     <div class="container-fluid">
     <h3 class="welcome-text">Enter your login information</h3>
     <br>
     <form class="" action="" method="post" enctype="text/plain">
       <div class="mb-3">
-        <label class="form-label" for="your-email">Your email ID</label>
-        <input class="form-control" type="email" id="your-email" placeholder="you@somewhere.com" aria-describedby="emailHelp">
+        <label class="form-label" for="your-email">Email</label>
+        <input class="form-control" type="email" id="your-email" placeholder="Email" aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
-        <label class="form-label" for="your-name">Your password</label>
-        <input class="form-control" type="text" id="your-password" placeholder="Password">
+        <label class="form-label" for="your-password">Password</label>
+        <input class="form-control" type="password" id="your-password" placeholder="Password">
         <br>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
     </form>
     </div>
-  </section> <!-- end of Let us Contact You Section -->
+    <!-- Modal -->   
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog  mw-100 w-75">
+    <div class="modal-content colored-section container-fluid">
+      <div class="modal-header">
+        <h1 class="section-heading">YatriGuide</h1>
+      </div>
+      <div class="modal-body">
+        <p class="welcome-text">You are logged into YatriGuide.</p>
+      </div>
+      <div class="modal-footer colored-section container-fluid">
+        <button type="button" class="btn btn-outline-primary btn-light btn-lg" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </section> <!-- end of Login Section -->
 
   <!-- Footer Section --> 
   <section class="colored-section" id="footer">
