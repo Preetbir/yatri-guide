@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Set Up - User Details</title>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1152303272.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Montserrat:wght@100;400;900&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">YatriGuide</a>
+      </nav>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="section-heading">Sign Up: Step 2</h1>
+          <h2 class="welcome-text"><a href="">Open a New User Account</a></h2>
+          <h2 class="welcome-text"><a href="">Your YatraGuide passport!</a></h2>
+        </div>
+        <div class="col-lg-6">
+          <img class="signup-image rotate-image" src="../images/signup.png" alt="userdetails-image">
+        </div>
+      </div>
+    </div>
+  </section> <!-- end of Title section -->
+  <!-- User Details Section -->
+  <section class="white-section" id='contact-you'>
+    <div class="container-fluid">
+      <h1 class="section-heading">New User Account</h1>
+      <hr>
+      <h3 class="welcome-text">Please provide the required information</h3>
+      <br>
+      <form class="" action="" method="post" enctype="text/plain">
+        <div class="mb-3">
+          <label class="form-label" for="your-name">Name</label>
+          <input class="form-control" type="text" id="your-name" placeholder="Name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="your-email">Email</label>
+          <input class="form-control" type="email" id="your-email" placeholder="Email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="your-password">Password</label>
+          <input class="form-control" type="password" id="your-password" placeholder="Password">
+          <br>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="confirm-password">Confirm password</label>
+          <input class="form-control" type="password" id="confirm-password" placeholder="Confirm Password">
+          <br>
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
+      </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100 w-75">
+        <div class="modal-content colored-section container-fluid">
+          <div class="modal-header">
+            <h1 class="section-heading">YatriGuide</h1>
+          </div>
+          <div class="modal-body">
+            <p class="welcome-text">Your account has been opened.</p>
+            <p class="welcome-text">Happy yatras!</p>
+          </div>
+          <div class="modal-footer colored-section container-fluid">
+            <button type="button" class="btn btn-outline-primary btn-light btn-lg" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- end of Let us Contact You Section -->
+
+  <!-- Footer Section -->
+  <section class="colored-section" id="footer">
+    <!-- Footer -->
+    <div class="container-fluid">
+      <footer>
+        <span class="social-icon fab fa-facebook-f"></span>
+        <span class="social-icon fab fa-twitter"></span>
+        <span class="social-icon fab fa-instagram"></span>
+        <!--<span class="social-icon fas fa-envelope"></span> -->
+        <p>Made with ❤️ by Preetbir and Yashika.</p>
+      </footer>
+    </div>
+  </section> <!-- end of Footer Section -->
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <!-- Our scripts -->
+</body>
+
+</html>

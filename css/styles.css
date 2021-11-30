@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Headings */
 .big-heading {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -82,15 +82,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* title */
-.title-image {
-  width: 90%;
+.index-image {
+  width: 80%;
   position:absolute;
   right: 5%;
   border-radius: 20px;
 }
 
 .contact-image {
-  width: 70%;
+  width: 65%;
+  position:absolute;
+  right: 5%;
+  border-radius: 20px;
+}
+
+.signup-image {
+  width: 58%;
+  position:absolute;
+  right: 5%;
+  border-radius: 20px;
+}
+
+.login-image {
+  width: 60%;
   position:absolute;
   right: 5%;
   border-radius: 20px;
@@ -98,6 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .domestic-image {
   width: 60%;
+  position:absolute;
+  right: 5%;
+  border-radius: 20px;
+}
+
+.international-image {
+  width: 70%;
   position:absolute;
   right: 5%;
   border-radius: 20px;
@@ -157,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
       text-align: center;
     }
 
-    .title-image, .contact-image, .domestic-image {
+    .index-image, .contact-image, .signup-image, .login-image, .domestic-image, .international-image {
       position: static;
       transform: rotate(0);
     }

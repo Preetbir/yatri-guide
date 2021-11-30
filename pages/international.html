@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Explore India</title>
+  <title>Explore the World</title>
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styles.css">
@@ -28,53 +28,85 @@
       </nav>
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="section-heading">Discover India</h1>
-          <h2 class="welcome-text">From HIMALAYAS</h2>
-          <h2 class="welcome-text">to KANYAKUMARI</h2>
+          <h1 class="section-heading">Explore the World</h1>
+          <h2 class="welcome-text">So much to see</h2>
+          <h2 class="welcome-text">Let us help you decide!</h2>
        </div>
         <div class="col-lg-6">
-          <img class="domestic-image rotate-image" src="../images/india-map.jpg" alt="travel-image">
+          <img class="international-image rotate-image" src="../images/international.png" alt="international-travel-image">
         </div>
      </div>
     </div>
   </section> <!-- end of Title section -->
 
-  <!-- India Section -->
+  <!-- International Section -->
   <section class="white-section" id='discover-india'>
     <div class="container-fluid">
 
-      <h2 class="section-heading">Places to discover in India</h2>
+      <h2 class="section-heading">Places to discover in the World</h2>
       <p>BEACHES, MOUNTAINS, CITIES, VILLAGES and a whole lot more!</p>
 
       <div class="row">
-        <div class="pricing-column col-lg-4 col-md-6">
-          <p>Himalayas</p>
-          <div class="card mb-4 shadow-sm colored-section">
-            <div class="card-body">
-              <a href="../index.html"><img class="img-fluid img-thumbnail" src="../images/himalayas.jpg" alt="himalayas"></a>
-            </div>
-          </div>
+        <div class="col-lg-4">
+          <img class="img-fluid" src="../images/bluemarble.jpg" alt="himalayas">
         </div>
-        <div class="pricing-column col-lg-4 col-md-6">
-          <p>Resorts</p>
-          <div class="card mb-4 shadow-sm colored-section">
-            <div class="card-body">
-              <a href="../index.html"><img class="img-fluid img-thumbnail" src="../images/resorts.jpg" alt="himalayas"></a>
+        <div class="col-lg-4">
+          <form>
+            <div class="form-group mb-2">
+              <label for="country-list">Country</label>
+              <select class="form-control" id="country-list">
+                <option>Australia</option>
+                <option>Canada</option>
+                <option>China</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Japan</option>
+                <option>Russia</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+              </select>
             </div>
-          </div>
+            <div class="form-group mb-2">
+              <label for="city-list">City</label>
+              <select class="form-control" id="city-list">
+                <option>Melbourne</option>
+                <option>Toronto</option>
+                <option>Shanghai</option>
+                <option>Paris</option>
+                <option>Berlin</option>
+                <option>Tokyo</option>
+                <option>Moscow</option>
+                <option>London</option>
+                <option>New York</option>
+              </select>
+            </div>
+            <div class="form-group mb-2">
+              <label for="attraction-type">Preferences</label>
+              <select class="form-control" id="attraction-type">
+                <option>Historical</option>
+                <option>Museums</option>
+                <option>Natural Beauty</option>
+                <option>Beaches</option>
+                <option>Night Life</option>
+                <option>Kid Stuff</option>
+                <option>Sports</option>
+                <option>Shopping</option>
+              </select>
+            </div>
+          </form>
         </div>
-        <div class="pricing-column col-lg-4 col-md-6">
-          <p>Beaches</p>
-          <div class="card mb-4 shadow-sm colored-section">
-            <div class="card-body">
-              <a href="../index.html"><img class="img-fluid img-thumbnail" src="../images/beaches.jfif" alt="himalayas"></a>
-            </div>
+        <div class="col-lg-4">
+          <form>
+            <div class="form-group">
+              <label for="ourRecommendations">Our Recommendations</label>
+              <textarea class="form-control" readonly id="ourRecommendations" rows="10"></textarea>
           </div>
+          </form>
         </div>
      </div>
 
     </div>
-  </section> <!-- end of India Section -->
+  </section> <!-- end of International Section -->
 
   <!-- Footer Section --> 
   <section class="colored-section" id="footer">
